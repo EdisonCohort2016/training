@@ -1,0 +1,18 @@
+body {
+  background: #000000;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 50px;
+}
+
+p {
+  color: rgb(72, 109, 132);
+}
+
+#world {
+  width: 300px;
+}
