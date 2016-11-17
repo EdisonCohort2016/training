@@ -8,14 +8,21 @@
 - Collaborate and work as a team
 - Learn problem solving (anticipatory and on-demand)
 - Develop skills to be able to research and learn independently
-- Gain basic proficiency with the following tools:
+- Gain basic proficiency with the following tools/services:
   - Atom.io
-  - GitHub
+  - GitHub.com
   - Slack
 
 ## November 17th, 2016
 
-### Recommended Resources
+### Hello, World!
+
+Today, we created our first web page. We created `index.html` document, which stores the content of our web page. We then stylized our web page with CSS in `style.css`.
+
+- [View helloworld](https://edisoncohort2016.github.io/training/helloworld/)
+- [Browse the source code](https://github.com/EdisonCohort2016/training/tree/master/docs/helloworld)
+
+### Recommended Learning
 
 - [Intro to HTML/CSS: Making webpages @ KhanAcademy](https://www.khanacademy.org/computing/computer-programming/html-css)
 
