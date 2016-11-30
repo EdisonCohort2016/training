@@ -2,10 +2,10 @@
 
 ## Objectives
 
-- Setup GitHub Desktop
-- Brainstorm Project Ideas for Student Portal
-- Tool Proficiency with Short-Cuts
-- Understand the Tree Structure Hierarchy of the DOM
+- Create GitHub account and install GitHub Desktop
+- Brainstorm project ideas for student portal
+- Tool proficiency with short-Cuts
+- Understand what a *Tree Structure* is and its relationship to the DOM.
 - Project with HTML and CSS
 - Discuss following terms:
   - tag
@@ -21,11 +21,17 @@
 
 ## Project
 
-Write a web page with HTML and CSS.
+Create a webpage.
 
 ### Requirements
 
-- TBD
+- Define a purpose for your webpage.
+- Place your content in `index.html`.
+- Stylize your content by writing CSS in `style.css`.
+- Include:
+    - 1 or more images
+    - Link to an external website
+    - CSS to stylize the webpage
 
 ## Code Like a Pro
 
