@@ -70,3 +70,65 @@ Atom.io   | Toggle Comments           | <kbd>Command+/</kbd>         | <kbd>Cont
 ![XKCD Tags](http://imgs.xkcd.com/comics/tags.png)
 
 [Source: https://xkcd.com/1144/](https://xkcd.com/1144/)
+
+
+## Recommended HTML Elements and CSS Properties
+
+As requested, here is a list of elements and properties to help get you started.
+
+#### HTML Elements
+
+Here's the [HTML Element Reference](http://www.w3schools.com/tags/default.asp) at w3schools. Use this to learn about the various elements you can use as you build your webpages. The following is a curated list of many the most commonly used elements:
+
+- [&lt;html&gt;](http://www.w3schools.com/tags/tag_html.asp)
+- [&lt;head&gt;](http://www.w3schools.com/tags/tag_head.asp)
+- [&lt;body&gt;](http://www.w3schools.com/tags/tag_body.asp)
+- [&lt;title&gt;](http://www.w3schools.com/tags/tag_title.asp)
+- [&lt;h1&gt; - &lt;h6&gt;](http://www.w3schools.com/tags/tag_hn.asp)
+- [&lt;div&gt;](http://www.w3schools.com/tags/tag_div.asp)
+- [&lt;p&gt;](http://www.w3schools.com/tags/tag_p.asp)
+- [&lt;img&gt;](http://www.w3schools.com/tags/tag_img.asp)
+- [&lt;a&gt;](http://www.w3schools.com/tags/tag_a.asp)
+- [&lt;strong&gt;](http://www.w3schools.com/tags/tag_strong.asp)
+- [&lt;em&gt;](http://www.w3schools.com/tags/tag_em.asp)
+- [&lt;b&gt;](http://www.w3schools.com/tags/tag_b.asp)
+- [&lt;i&gt;](http://www.w3schools.com/tags/tag_i.asp)
+- [&lt;span&gt;](http://www.w3schools.com/tags/tag_span.asp)
+- [&lt;br&gt;](http://www.w3schools.com/tags/tag_br.asp)
+- [&lt;ul&gt;](http://www.w3schools.com/tags/tag_ul.asp)
+- [&lt;ol&gt;](http://www.w3schools.com/tags/tag_ol.asp)
+- [&lt;li&gt;](http://www.w3schools.com/tags/tag_li.asp)
+
+#### CSS Properties
+
+Here's the [CSS Properties Reference](http://www.w3schools.com/cssref/default.asp) at w3schools. This is a comprehensive list of properties you can use to style the content of your webpages. The following is a curated list of CSS properties to get you started:
+
+- [background:](http://www.w3schools.com/cssref/css3_pr_background.asp)
+- [color:](http://www.w3schools.com/cssref/pr_text_color.asp)
+- [font-size:](http://www.w3schools.com/cssref/pr_font_font-size.asp)
+- [font-family:](http://www.w3schools.com/cssref/pr_font_font-family.asp)
+- [padding:](http://www.w3schools.com/cssref/pr_padding.asp)
+- [margin:](http://www.w3schools.com/cssref/pr_margin.asp)
+- [border:](http://www.w3schools.com/cssref/pr_border.asp)
+
+###### CSS Example
+
+```css
+/* Element selector */
+div {
+    background: #000;
+    color: #fff;
+}
+
+/* Class selectors are prepended with a '.' */
+.bluetext {
+    color: #00f;
+}
+
+/* ID selectors are prepended with a '#'. */
+#myuniqueid {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #00f;
+}
+```
