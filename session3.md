@@ -14,7 +14,7 @@
 
 Version control is "is the management of changes to documents, computer programs, large web sites, and other collections of information." ([source](https://en.wikipedia.org/w/index.php?title=Version_control&oldid=752478072))
 
-Git is a Version Control System (VCS) created by Linus Torvalds in 2005 to develop of the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel). ([source](https://en.wikipedia.org/w/index.php?title=Linux_kernel&oldid=753460592))
+Git is a Version Control System (VCS) created by Linus Torvalds in 2005 to develop of the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel). ([source](https://en.wikipedia.org/w/index.php?title=Git&oldid=752609792))
 
 [GitHub](https://github.com/) is an online service that allows individuals, teams, and businesses to store Git repositories in the cloud.
 
