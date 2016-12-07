@@ -2,6 +2,7 @@
 
 ## Objectives
 
+- Discuss progress with HTML/CSS
 - Learn version control fundamentals
 - Learn and use Git / GitHub
 - Install GitHub Desktop
