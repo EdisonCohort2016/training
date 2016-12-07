@@ -1,4 +1,4 @@
-# Session 3. December 7th, 2016
+# Session 3\. December 7th, 2016
 
 ## Objectives
 
@@ -27,7 +27,7 @@ Git is a Version Control System (VCS) created by Linus Torvalds in 2005 to devel
 
 ### Git Humor
 
-![XKCD: Git Comments]](http://imgs.xkcd.com/comics/git_commit.png)
+![XKCD: Git Comments](http://imgs.xkcd.com/comics/git_commit.png)
 
 ([source](https://xkcd.com/1296/))
 
