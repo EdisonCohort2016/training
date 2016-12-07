@@ -36,3 +36,6 @@ Git is a Version Control System (VCS) created by Linus Torvalds in 2005 to devel
 - [Wikipedia: Version Control](https://en.wikipedia.org/wiki/Version_control)
 - [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)
 - [Wikipedia: Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds)
+
+
+## Making Changes
