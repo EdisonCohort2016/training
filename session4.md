@@ -14,7 +14,7 @@
 
 ### Activity: CSS Diner
 
-32 challenges you solve with selectors.
+32 challenges to solve with selectors.
 
 [CSS Diner](https://flukeout.github.io/)
 
@@ -30,7 +30,7 @@
 - Be sure to make commits to your git repo and sync with GitHub.
 - Share your progress on Slack.
 
-## Goals for Winter break
+## Goals for Winter Break
 
 Discuss as a class what goals you would like to accomplish during the winter break.
 
