@@ -34,9 +34,11 @@
 
 Discuss as a class what goals you would like to accomplish during the winter break.
 
-- ?
-- ?
-- ?
+- CSS Zen Garden Project (details above)
+  - Share progress on Slack
+- Or work on your own HTML document with CSS
+  - Share progress on Slack
+  - Use a GitHub Repo
 
 ## Resources
 
