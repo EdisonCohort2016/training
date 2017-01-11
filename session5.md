@@ -3,23 +3,37 @@
 ## Objectives:
 
 - Chrome Developer Tools
+
   - Elements
   - Select Element
   - Console
+
 - Intro to JavaScript
 
 ### JavaScript
 
 - `<script>`
 - Data Types
+
   - Number
   - String
   - Boolean
+
 - Functions
+
 - Control Flow
+
   - if / if-else / else
   - loops
+
 - Comments
+
+## Short-Cuts
+
+Selector | Command              | OS X                        | Windows
+-------- | -------------------- | --------------------------- | --------------------------
+Chrome   | Open Developer Tools | <kbd>Command+Shift+I</kbd>  | <kbd>Control+Shift+I</kbd>
+Chrome   | Open Console         | <kbd>Command+Option+J</kbd> | <kbd>Control+Shift+J</kbd>
 
 ## Resources
 
