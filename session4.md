@@ -1,4 +1,4 @@
-# Session 4\. December 14th, 2016-2017
+# Session 4\. December 14th, 2016
 
 ## Objectives:
 
