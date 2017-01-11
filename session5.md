@@ -2,30 +2,24 @@
 
 ## Objectives:
 
+- Review
 - Chrome Developer Tools
-
   - Elements
   - Select Element
   - Console
-
 - Intro to JavaScript
 
 ### JavaScript
 
 - `<script>`
 - Data Types
-
   - Number
   - String
   - Boolean
-
 - Functions
-
 - Control Flow
-
   - if / if-else / else
   - loops
-
 - Comments
 
 ## Short-Cuts
