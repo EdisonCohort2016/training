@@ -21,3 +21,4 @@
 - [Session 4](./session4.md)
 - [Session 5](./session5.md)
 - [Session 6](./session6.md)
+- [Session 7](./session7.md)
