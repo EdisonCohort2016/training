@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function() {
+      var $headers = $('h1');
+
+      // Print the contents of h1 to the console
+      console.log($headers.text());
+
+      // Change the text of the h1 elements
+      $headers
+        .text('Goodbye original text')
+        .css({
+          'color': '#ff00ff',
+          'font-size': '80px'
+        })
+
+      // Simple Template Examples
+      var template = '<div><h2></h2><p></p></div>',
+        $content = $('#content');
+
+      $content.html(template);
+      $content.find('h2').text('TITLE GOES HERE');
+      $content.find('p').text(
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+      );
+
+
+      // Simple Button Example
+      var $button = $('#mybutton'),
+        $uppercaseme = $('#uppercaseme'),
+        headerText = $uppercaseme.text();
+
+      $button.click(function() {
+        headerText = headerText.toUpperCase();
+        $uppercaseme.text(headerText);
+      });
+
+
+      // User input
+      var $input = $('#userinput'),
+        $output = $('#userresults'),
+        value = 0;
+
+      $input.keydown(function(e) {
+        if (e.keyCode == 13) {
+          value = $input.val();
+          value *= 144;
+          $output.text(value);
+          console.log(value);
+        }
+      });
+
+    });
+  </script>
+</head>
+
+<body>
+  <h1>Hello jQuery</h1>
+  <h1>Hello, again.</h1>
+  <div id="content"></div>
+
+  <h2>Mouse click example</h2>
+  <h3 id='uppercaseme'>the quick brown fox jumps over the lazy dog</h1>
+  <button id="mybutton">Make Uppercase</button>
+
+  <h2>User Input Example</h2>
+  <input id="userinput" type="number" name="price" value="0">
+  <p>Output:</p>
+  <p id="userresults"></p>
+
+</body>
+
+</html>
