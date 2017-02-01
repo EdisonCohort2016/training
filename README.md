@@ -4,7 +4,7 @@
 
 - Learn to create Web Applications
 - Learn HTML, CSS, and JavaScript
-- Learn to access and manipulate the Document Object Model (DOM) with JavaScript and jQuery.
+- Learn to access and manipulate the Document Object Model (DOM) with JavaScript and jQuery
 - Collaborate and work as a team
 - Learn problem solving (anticipatory and on-demand)
 - Develop skills to be able to research and learn independently
@@ -22,3 +22,4 @@
 - [Session 5](./session5.md)
 - [Session 6](./session6.md)
 - [Session 7](./session7.md)
+- [Session 8](./session8.md)
