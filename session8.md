@@ -29,12 +29,13 @@
 
 ## Continuing Students
 
+- "use strict"
 - [JSON - JavaScript Object Notation](http://json.org/)
 
-
-## Tutorials
+## Tutorials and Resources
 
 - [JavaScript Tutorial at CodeAcademy](https://www.codecademy.com/learn/javascript)
 - [KhanAcademy: Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)
 - [jQuery Tutorial at w3scools](http://www.w3schools.com/jquery/)
 - [KhanAcademy: HTML/JS: Making webpages interactive with jQuery](https://www.khanacademy.org/computing/computer-programming/html-js-jquery)
+- [JSONLint - The JSON Validator](http://jsonlint.com/)
