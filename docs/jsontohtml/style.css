@@ -1,0 +1,27 @@
+body {
+  font-family: Avenir, Helvetica, sans-serif;
+  margin: 10px 50px;;
+}
+
+#content {
+  color: #333333;
+}
+
+#content h2 {
+  border: 1px solid #333333;
+  padding: 10px;
+  background-color: #cccccc;
+  margin: 0px;
+}
+
+#content p {
+  background: #efefef;
+  margin: 0px;
+  padding: 10px 10px 30px 10px;
+  border-left: 1px solid #333333;
+  border-right: 1px solid #333333;
+}
+
+.post:last-child {
+  border-bottom: 1px solid #333333;
+}
