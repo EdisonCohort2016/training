@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>jQuery UI Slider - Snap to increments</title>
+  <link href="https://fonts.googleapis.com/css?family=Kavoon|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -12,10 +13,10 @@
   <script>
     $(function() {
       $("#slider").slider({
-        value: 100,
-        min: 0,
-        max: 500,
-        step: 50,
+        value: 1,
+        min: 1776,
+        max: 2017,
+        step: 1,
         slide: function(event, ui) {
           $("#amount").val("$" + ui.value);
         }
@@ -28,13 +29,40 @@
 <body>
 
   <p>
-    <label for="amount">Donation amount ($50 increments):</label>
+    <label for="amount">Year</label>
     <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
   </p>
 
-  <div id="slider"></div>
+  <style>
+    body {
+      text-align: center;
+      font-family: 'Kavoon', cursive;
+    }
+
+    label {
+      font-size: 50px;
+    }
+
+    input#amount {
+      width: 50px;
+      text-align: center;
+    }
+
+    #slidercontainer {
+      padding-left: 25%;
+      padding-right: 25%;
+    }
+
+    #slider {
+      /*width: 50%;*/
+    }
+  </style>
+  <div id="slidercontainer">
+    <div id="slider"></div>
+  </div>
 
 
 </body>
 
 </html>
+>

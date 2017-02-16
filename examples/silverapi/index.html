@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Simple API</title>
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+</head>
+
+<style>
+  body {
+    font-family: 'Righteous', cursive;
+  }
+</style>
+<script>
+  $(document).ready(function() {
+    console.log('hello API');
+
+    var jqxhr = $.getJSON("https://www.quandl.com/api/v3/datasets/LBMA/SILVER/data.json", {
+        start_date: "2017-02-01"
+      })
+      .done(function(data) {
+        console.log("second success");
+        console.log(data);
+      })
+      .fail(function() {
+        console.log("error");
+      })
+      .always(function() {
+        console.log("complete");
+      });
+  })
+</script>
+
+<body>
+  <div id="header">
+    <h1>Hello API</h1>
+  </div>
+  <div id="maincontent">
+  </div>
+</body>
+
+</html>
