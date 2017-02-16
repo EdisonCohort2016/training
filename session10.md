@@ -8,29 +8,34 @@
 
 - Intro to jQuery UI
 - API for commodities
+- Google Fonts
 
-### Tools of the Trade
+## Google Fonts
 
-- [Atom.io - A hackable text editor for the 21st century](https://atom.io/)
-- [slack.com](https://slack.com/)
-- [GitHub](https://github.com/)
-- [GitHub Desktop](https://desktop.github.com/)
+[https://fonts.google.com/](https://fonts.google.com/)
 
-### Tutorials and Resources
+### Importing a font
 
-- [KhanAcademy: Intro to HTML/CSS](https://www.khanacademy.org/computing/computer-programming/html-css)
-- [Atom Basics](http://flight-manual.atom.io/getting-started/sections/atom-basics/)
-- [w3schools: HTML5 Tutorial](http://www.w3schools.com/html/default.asp)
+- Find the font you wish to import.
+- Press the (+) button
+- Click on the `Family Selected` tab on the bottom
+- Copy the code into the appropriate place
 
-## Continuing Students
+#### Example - Using the Kavoon Font
 
-- "use strict"
-- [JSON - JavaScript Object Notation](http://json.org/)
+#### As `<link>`
 
-## Tutorials and Resources
+```html
+<link href="https://fonts.googleapis.com/css?family=Kavoon" rel="stylesheet">
+```
 
-- [JavaScript Tutorial at CodeAcademy](https://www.codecademy.com/learn/javascript)
-- [KhanAcademy: Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)
-- [jQuery Tutorial at w3scools](http://www.w3schools.com/jquery/)
-- [KhanAcademy: HTML/JS: Making webpages interactive with jQuery](https://www.khanacademy.org/computing/computer-programming/html-js-jquery)
-- [JSONLint - The JSON Validator](http://jsonlint.com/)
+##### As CSS
+
+```css
+@import url('https://fonts.googleapis.com/css?family=Kavoon');
+```
+
+##### Font Property
+```css
+font-family: 'Kavoon', cursive;
+```
