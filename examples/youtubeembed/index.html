@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Audio Element</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+
+<style>
+  #mask {
+    height: 50px;
+    overflow: hidden;
+  }
+
+  #mask iframe {
+    position: relative;
+    top: -265px;
+  }
+</style>
+
+<body>
+  <h1>Embedding YouTube with Autoplay and Partially Hiding Video</h1>
+  <div id="mask">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QH2-TGUlwu4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+  </div>
+</body>
+
+</html>
